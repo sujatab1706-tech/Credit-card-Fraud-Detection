@@ -1,0 +1,25 @@
+{
+  "threshold": 0.29,
+  "thresholds": {
+    "default": 0.5,
+    "best_f1": 0.26,
+    "max_profit": 0.29
+  },
+  "best_params": {
+    "C": 1.0,
+    "class_weight": null,
+    "l1_ratio": 1.0
+  },
+  "test": {
+    "roc_auc": 0.8369,
+    "pr_auc": 0.6293,
+    "precision": 0.526,
+    "recall": 0.6923,
+    "f1": 0.5978,
+    "flag_rate": 0.3279,
+    "threshold": 0.29,
+    "log_loss": 0.4135,
+    "brier": 0.1341
+  },
+  "train_churn_rate": 0.2497
+}
