@@ -1,0 +1,9 @@
+payment_type,payments,auto_match_rate,auto_match_precision,review_rate,unapplied_rate
+exact,1309,0.974,1.0,0.024,0.002
+wire_fee,139,0.964,0.993,0.029,0.007
+discount,94,0.936,1.0,0.043,0.021
+deduction,97,0.546,1.0,0.371,0.082
+partial,201,0.756,0.993,0.174,0.07
+combined,223,0.7,0.974,0.3,0.0
+combined_short,35,0.8,1.0,0.2,0.0
+unapplied,92,0.011,0.0,0.109,0.88

@@ -1,0 +1,3 @@
+approach,auto_match_rate,auto_match_precision,manual_payments_per_year,analyst_hours_per_year,wrong_auto_matches_per_year,hours_saved_vs_rules
+hgb + decision layer,0.8616,0.9963,6915,691,159,1281
+rules,0.6055,1.0,19725,1972,0,0
