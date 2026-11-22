@@ -1,0 +1,9 @@
+data/
+results/
+logs/
+notebooks/
+tests/
+monitoring/
+.git/
+.venv/
+**/__pycache__/

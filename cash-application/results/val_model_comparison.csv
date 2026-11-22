@@ -1,0 +1,4 @@
+model,pair_pr_auc,pair_roc_auc,auto_threshold,payments,auto_match_rate,auto_match_precision,auto_matched_wrong,review_rate,review_top1_suggestion_correct,unapplied_rate,unapplied_truly_unmatched,matchable_payments_auto_matched
+logreg,0.9689952467499652,0.996810946498719,0.63,1503,0.7937,1.0,0,0.147,0.9481,0.0592,0.5056,0.8233
+hgb,0.9888851136584801,0.9992647422176644,0.5,1503,0.8543,0.9992,1,0.0978,0.9437,0.0479,0.6806,0.8854
+rules,,,,1503,0.6041,1.0,0,0.3959,0.0,0.0,,0.6266

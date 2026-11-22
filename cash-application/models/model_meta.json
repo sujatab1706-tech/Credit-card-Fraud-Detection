@@ -1,0 +1,61 @@
+{
+  "model": "hgb",
+  "features": [
+    "ref_exact",
+    "ref_fragment",
+    "ref_po",
+    "refs_found",
+    "refs_same_customer",
+    "text_empty",
+    "name_score",
+    "name_gap",
+    "amt_ratio",
+    "amt_abs_log_ratio",
+    "amt_exact",
+    "amt_fee_like",
+    "amt_discount_like",
+    "amt_partial_like",
+    "subset_match",
+    "subset_size",
+    "amount_rank",
+    "days_from_due",
+    "days_since_issue",
+    "age_rank",
+    "n_candidates",
+    "n_customer_open"
+  ],
+  "auto_threshold": 0.5,
+  "review_threshold": 0.15,
+  "target_precision": 0.995,
+  "candidate_recall": {
+    "test": 0.9958,
+    "train": 0.9906,
+    "val": 0.9936
+  },
+  "val_pair_pr_auc": 0.9889,
+  "test_pair_pr_auc": 0.9907,
+  "test": {
+    "payments": 2190,
+    "auto_match_rate": 0.8616,
+    "auto_match_precision": 0.9963,
+    "auto_matched_wrong": 7,
+    "review_rate": 0.089,
+    "review_top1_suggestion_correct": 0.8649,
+    "unapplied_rate": 0.0493,
+    "unapplied_truly_unmatched": 0.75,
+    "matchable_payments_auto_matched": 0.8961
+  },
+  "test_rules": {
+    "payments": 2190,
+    "auto_match_rate": 0.6055,
+    "auto_match_precision": 1.0,
+    "auto_matched_wrong": 0,
+    "review_rate": 0.3945,
+    "review_top1_suggestion_correct": 0.0,
+    "unapplied_rate": 0.0,
+    "unapplied_truly_unmatched": NaN,
+    "matchable_payments_auto_matched": 0.632
+  },
+  "trained_on": "payments before 2025-09-01",
+  "trained_at": "2026-11-22T18:54:56.076077+00:00"
+}
